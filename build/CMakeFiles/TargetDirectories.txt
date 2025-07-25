@@ -1,3 +1,0 @@
-C:/Users/ThinkpadX1/Desktop/git repos/algorithms/build/CMakeFiles/run_algos.dir
-C:/Users/ThinkpadX1/Desktop/git repos/algorithms/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/ThinkpadX1/Desktop/git repos/algorithms/build/CMakeFiles/ZERO_CHECK.dir
