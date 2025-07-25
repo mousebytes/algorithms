@@ -1,6 +1,7 @@
 #include<iostream>
 #include "include/StackArray.h"
 #include "include/StackSLL.h"
+#include "include/QueueArray.h"
 
 void StackArrayTest()
 {
@@ -38,14 +39,33 @@ void StackSLLTest()
     std::cout << s.peek();
 }
 
+void QueueArrayTest()
+{
+    QueueArray<int> q(5);
+
+    
+    //std::cout<< '\n' <<q.peek();
+    //std::cout<< '\n' <<q.pop();
+
+    q.push(1);
+    q.push(2);
+    q.push(3);
+    q.push(4);
+    q.push(5);
+
+    std::cout<< '\n' <<q.pop();
+    std::cout<< '\n' <<q.pop();
+    std::cout<< '\n' <<q.pop();
+    std::cout<< '\n' <<q.pop();
+    std::cout<< '\n' <<q.pop();
+
+}
+
 int main(void)
 {
     std::cout << "main loaded\n";
 
-    //StackArrayTest();
-
-    StackSLLTest();
-
+    QueueArrayTest();
 
     return 0;
 }
