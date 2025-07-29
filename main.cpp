@@ -3,6 +3,7 @@
 #include "include/StackSLL.h"
 #include "include/QueueArray.h"
 #include "include/QueueSLL.h"
+#include "include/Recursion.h"
 
 void StackArrayTest()
 {
@@ -78,11 +79,19 @@ void QueueSLLTest()
     std::cout << q.pop();
 }
 
+void RecursionTests()
+{
+    std::cout << RecursiveFunctions::factorial(5);
+    std::cout << '\n' << RecursiveFunctions::reverseString("Hello");
+}
+
 int main(void)
 {
     std::cout << "main loaded\n";
 
-    QueueSLLTest();
+    //QueueSLLTest();
+
+    RecursionTests();
 
     return 0;
 }
